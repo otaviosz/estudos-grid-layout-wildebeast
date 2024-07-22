@@ -8,9 +8,7 @@ body, p, h1, li, ul, blockquote {
 
 }
 
-body {
 
-}
 
 li {
   list-style: none;
@@ -21,7 +19,9 @@ a {
 }
 
 img {
+  display: block;
   max-width: 100%;
+  border-radius: 5px;
 }
 
 
@@ -100,9 +100,20 @@ img {
 
 .anuncios {
   grid-area: anuncios;
+  background: #fafbfc;
+  display: grid;
+  align-content: start ;
+  padding: 30px;
+  gap: 30px;
 }
 
 .footer {
   grid-area: footer;
+  background: linear-gradient(138deg, #8844ee, #B07DFB);
 }
 
+.footer p {
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
