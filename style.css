@@ -69,12 +69,29 @@ img {
   transition: .1s;
 }
 
-.header li {
-}
 
+/* SIDENAV */
 
 .sidenav {
   grid-area: sidenav;
+  background: #fafbfc;
+}
+
+.sidenav li a {
+  display: block;
+  min-width: 60px;
+  max-width: 100px;
+  margin: 30px auto 30px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+  transition: .1s ease-in-out;
+}
+
+.sidenav li a:hover {
+  background: #B07DFB;
+  transform: scale(1.025);
 }
 
 .content {
