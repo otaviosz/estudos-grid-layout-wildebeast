@@ -96,6 +96,12 @@ img {
 
 .content {
   grid-area: content;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
 }
 
 .anuncios {
@@ -105,6 +111,24 @@ img {
   align-content: start ;
   padding: 30px;
   gap: 30px;
+}
+
+.col-extend {
+  grid-column: 1/-1;
+}
+ 
+.imagem-1 {
+  height: auto;
+  grid-row: span 2;
+  align-self: flex-end;
+  width: 300px;
+
+}
+
+.imagem-2 {
+  height: auto;
+  align-self: flex-end;
+
 }
 
 .footer {
