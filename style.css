@@ -19,7 +19,6 @@ a {
 
 
 img {
-  display: block;
   max-width: 100%;
   border-radius: 5px;
   width: 100%;
@@ -196,6 +195,41 @@ img {
 }
 
 
+.destaque {
+  font-size: 0.875em;
+  color: #B07DFB;
+  max-width: 20em;
+}
+
+
+.citacao, .atributos {
+  align-self: start;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 16px 0 rgba(44, 44, 44, 0.15);
+  background: linear-gradient(135deg, #8844ee, #B07DFB);
+}
+
+.citacao p {
+  font-size: 1.5em;
+  font-style: italic;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.atributos li{
+  color: #fff;
+  font-family: Courier, monospace;
+  font-size: 1.125em;
+  padding: 15px;
+}
+
+.atributos li + li {
+  border-top: 2px solid #B07DFB;
+}
+
 /* ANUNCIOS */
 
 .anuncios {
@@ -216,6 +250,8 @@ img {
   grid-row: span 2;
   align-self: flex-end;
   width: 400px;
+  height: 500px;
+  object-fit: cover;
 }
 
 p {
@@ -232,6 +268,7 @@ p {
 .imagem-2 {
   height: auto;
   align-self: flex-end;
+  width: 400px;
 
 }
 
@@ -250,4 +287,11 @@ p {
   display: flex;
   align-items: flex-start;
 
+}
+
+
+.imagem-3 {
+  width: 1000px;
+  height: 300px;
+  object-fit: cover;
 }
